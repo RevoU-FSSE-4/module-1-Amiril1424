@@ -1,0 +1,214 @@
+/* CSS for styling Horizontal Navbar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    --color1: #020202;
+    --color2: white;
+    background-color: rgb(248, 247, 247);
+    color: black;
+    transition: 0.5s;
+}
+
+/* Navigation */
+.nav-bar {
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    background-color: var(--color2);
+    padding: 12px 50px;
+    border-bottom: 1px solid rgb(223, 218, 218);
+    box-shadow: 1px 1px 8px 5px #888888;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.search img {
+    width: 30px;
+    right: 0px;
+    position: relative;
+}
+
+.menu-bar {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+}
+
+.menu-bar li {
+    padding-left: 10px;
+}
+
+.menu-bar li a {
+    display: inline-block;
+    color: rgb(34, 32, 32);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-bar li a:hover {
+
+    color: white;
+    background-color: rgb(9, 32, 160);
+}
+
+/* Style for content */
+.imageHeader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.imageHeader img {
+    width: 100%;
+    /* height: 780px; */
+    padding-top: 10px;
+}
+
+.bar {
+    height: 50px;
+    background-color: blue;
+    opacity: 0.3;
+    margin-top: -50px;
+
+}
+
+.motto {
+    color: black;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.top-message {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+.director {
+    width: 100%;
+}
+
+.director img {
+    width: 200px;
+    margin-left: 400px;
+}
+
+.text-top-message {
+    padding-top: 20px;
+    margin-left: 400px;
+    margin-right: 200px;
+}
+
+.vision {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+
+}
+
+.vision p {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.mission {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+
+}
+
+.mission p {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.calculation h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+}
+
+.calculation form {
+    max-width: 500px;
+    margin-left: 400px;
+
+}
+
+footer {
+    font-size: 100px;
+    border-top: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+
+/* Form Register */
+.form-user-regis label {
+    margin-bottom: 10px;
+}
+
+.register h2 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+}
+
+fieldset {
+    background-color: #16025c;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+legend {
+    background-color: rgb(155, 156, 156);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#user-form form {
+    max-width: 500px;
+    margin-left: 400px;
+
+
+}
+
+button[type="submit"] {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
