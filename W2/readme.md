@@ -21,4 +21,4 @@ We welcome any and all contributions! Here are some ways you can get started:
 ![Web display](./_Assets/web.JPG)
 
 # You can go to our sample web:
-([https://stately-dieffenbachia-5fce26.netlify.app/])(https://stately-dieffenbachia-5fce26.netlify.app/)
+([https://65cf8ee26965310d527380c5--adorable-narwhal-975b02.netlify.app/])(https://65cf8ee26965310d527380c5--adorable-narwhal-975b02.netlify.app/)
