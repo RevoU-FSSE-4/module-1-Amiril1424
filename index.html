@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A web application to calculate pole" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Amiril Mukminin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koribali</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Link for icon hamburger -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link for icon footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="#section-1"><img src="./_Assets/Logo_Company.jpg" alt="logo KB"></a></li>
+            <input type="checkbox" id="check">
+            <span class="menu-bar">
+                <li><a href="#section-1"><strong>Home</strong></a></li>
+                <li><a href="#section-2"><strong>Analysis</strong></a></li>
+                <li><a href="#"><strong>Catalog</strong></a></li>
+                <li><a href="#section-4"><strong>Register</strong></a></li>
+                <li><a href="#"><strong>Contact Us</strong></a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            <!-- Hack Google search -->
+            <form action="https://www.google.com/search" method="get">
+                <input type="text" placeholder="Search google.." id="searchGoogle" name="q" />
+                <button type="submit"><i class="fa fa-search" id="searchButton"></i></button>
+            </form>
+        </ul>
+    </nav>
+
+    <!-- Content -->
+    <main>
+        <!-- Section 1 -->
+        <section id="section-1">
+            <!-- Content of Koribali -->
+            <div class="imageHeader">
+                <img src="./_Assets/YP1.png" alt="Pole Lighting">
+            </div>
+            <div class="bar"></div>
+            <h1 class="motto">Good Product is made from good analysis</h1>
+            <div class="flex-container">
+                <h2 class="top-message">Top Message</h2>
+                <div class="director">
+                    <img src="./_Assets/Foto_Amir.jpg" alt="Amir">
+                </div>
+                <div class="text-top-message">
+                    <p>Since our founding, we have been manufacturing and selling various anlysis outdoor pole products.
+                        The predecessor Koribali Co., Ltd. was a company that
+                        supplied design and analysis of various pole such as Disaster Prevention pole, Lighting Pole,
+                        Traffic
+                        Light, etc. About 120 years have passed if it includes the
+                        era.</p> <br>
+                    <br>
+                    <p>Koribali was founded in 2011 as a pole analyzer. Later, steel poles were manufactured
+                        in response to the needs of the times, and today's our product areas cover a wide range of
+                        social
+                        infrastructure such as electric power, railway, communication, lighting, sign, signal, and
+                        sports
+                        facilities in Japan.
+                        <br><br>
+                        We appreciate your continued support and look forward to working with you.
+                    </p>
+                </div>
+                <div class="vision">
+                    <h2>Vision</h2>
+                    <p>
+                        Good design for safety products
+                    </p>
+                </div>
+                <div class="mission">
+                    <h2>Mission</h2>
+                    <p>
+                        Contribute to the creation of a safe, secure, comfortable social infrastructure.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <!-- Section 2 -->
+        <section id="section-2">
+            <!-- Content of analysis -->
+            <div class="calculation">
+                <h2> Try to calculate the Section modulus of pole</h2>
+                <form action="" method="post">
+                    <fieldset>
+                        <label for="diameter">Diameter Pole:</label>
+                        <input type="text" id="diameter1" name="Diameter" placeholder="114.3" />
+                        <label for="unit">mm</label><br><br>
+                        <label for="thickness">Thickness Pole:</label>
+                        <input type="text" id="thickness1" name="thickness" placeholder="4.5" />
+                        <label for="unit">mm</label><br>
+                        <br>
+                        <button type="button" onclick="calculate()">calculate!</button><br>
+                        <label for="result" id="resultQ"></label>
+
+                    </fieldset>
+                </form>
+            </div>
+
+        </section>
+        <!-- Section 3 -->
+        <section id="section-3">
+            <!-- content of Catalog -->
+        </section>
+        <!-- Section 4 -->
+        <section id="section-4">
+            <!-- content of Register -->
+            <div class="register">
+                <h2>Register Form</h2>
+                <div id="user-form">
+                    <form action="#">
+                        <fieldset>
+                            <legend>Register</legend>
+                            <div class="form-user-regis">
+                                <!-- First Name -->
+                                <label for="fname">First Name:</label><br>
+                                <input type="text" id="fname" placeholder=" First Name"><br><br>
+                                <!-- Last Name -->
+                                <label for="lname">Last name:</label><br>
+                                <input type="text" id="lname" placeholder="Last name"><br><br>
+                                <!-- Birthday -->
+                                <label for="birthday">Birthday:</label><br>
+                                <input type="date" id="birthday" name="birthday"><br><br>
+                                <!-- Email -->
+                                <label for="email">Enter your email:</label><br>
+                                <input type="email" id="email" name="email"><br><br>
+                                <p>Where are you come from?</p>
+                                <!-- option 1 -->
+                                <input type="radio" id="indonesia" name="Indonesia">
+                                <label for="indonesia">Indonesia</label>
+
+                                <!-- option 2 -->
+                                <input type="radio" id="others country" name="others">
+                                <label for="others">Others Country</label>
+
+                                <p>Tell us about you!</p>
+                                <textarea id="text-self" name="text-self" rows="4" cols="50"></textarea><br>
+                                <br>
+                                <button id="submit" type="submit" onclick="myFunction()">Sign Up</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Section 5 -->
+        <section id="section-5">
+            <!-- content of Contact-Us -->
+        </section>
+
+
+    </main>
+
+
+    <script src="index.js"></script>
+
+    <!-- adreess -->
+    <footer class="footer" id="contact-us">
+        <div class="footer-left">
+            <div class="sc">
+                <img src="./_Assets/Logo_Company.jpg" alt="Logo KB">
+            </div>
+            <p class="footer-copyright">copyright: Set-Up Consulting</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Indonesia</span> Ciampea, Bogor</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+62 812 8741 1790</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">koribali@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-about">
+                <span>About</span>
+                This Channel about design and analysis pole structure. The design and analysis pole for Traffic Light,
+                Signboard, Lighting, etc. Let's grow up together with us!
+            </p>
+
+            <div class="footer-media">
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
