@@ -1,4 +1,4 @@
-# This is the assignment of week 1
+# This is the assignment of week 2
 ***
 # Description
 Welcome to our project! This is a koribali website. The website include information regarding to Pole structure
@@ -11,9 +11,11 @@ We welcome any and all contributions! Here are some ways you can get started:
 3. analyse a structure of pole
 
 # Skill contain in web:
-1. Able to use HTML tags and their proper usage
-2. creating a form set that includes input type text, textarea, submit button, and one of the radio buttons, 
-3. creating readme.md file
+1. Building a web page and try to use correct semantics for each element
+2. Applying Responsive Design with media query
+3. centering element using flex
+4. Creating a sticky Nav Header
+5. Deploy it Netlify
 
 # This is the web sample
 ![Web display](./_Assets/web.JPG)
